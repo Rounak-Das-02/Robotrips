@@ -14,11 +14,11 @@ const headerStyle = css`
 const Header = () => (
   <div className={tw(headerStyle)} style ={{backgroundImage : `url("bg.jpg")`, backgroundRepeat: "no-repeat", backgroundPosition: "50% 70%", backgroundSize: "cover"}} >
     <div className={tw(`max-w-4xl mx-auto py-16 px-14 sm:px-6 lg:px-8`)}>
-      <h1 className={tw(`font-sans font-bold text-4xl md:text-5xl lg:text-8xl text-center leading-snug text-gray-800`)}>
+      <h1 className={tw(`font-sans font-bold text-4xl md:text-5xl lg:text-8xl text-center leading-snug text-gray-100`)}>
         Make your Trips using Robotrips
       </h1>
       <div className={tw(`max-w-xl mx-auto`)}>
-        <p className={tw(`mt-10 text-gray-500 text-center text-xl lg:text-3xl`)}>
+        <p className={tw(`mt-10 text-gray-200 text-center text-xl lg:text-3xl`)}>
           An Autonomous Shuttle Service
         </p>
       </div>
@@ -30,12 +30,12 @@ const Header = () => (
     </div>
     <div className={tw(`flex justify-center w-full`)}>
       <div className={tw(`mt-4 w-full`)}>
-        <p className={tw(`font-mono uppercase text-center font-medium text-sm text-gray-600`)}>These folks get it</p>
+        <p className={tw(`font-mono uppercase text-center font-medium text-m text-gray-200`)}>These folks get it</p>
         <div className={tw(`flex items-center justify-center mx-auto flex-wrap`)}>
-          <Aws className={tw(`m-12 mb-8`)} width={120} />
-          <Netlify className={tw(`m-12`)} width={140} />
-          <Nike className={tw(`m-12`)} width={140} />
-          <Figma className={tw(`m-12`)} width={140} />
+          <Aws className={tw(`m-12 mb-8`)} width={120} style = {{filter : "invert(1)"}}/>
+          <Netlify className={tw(`m-12`)} width={140} style = {{filter : "invert(1)"}}/>
+          <Nike className={tw(`m-12`)} width={140} style = {{filter : "invert(1)"}}/>
+          <Figma className={tw(`m-12`)} width={140} style = {{filter : "invert(1)"}} />
         </div>
       </div>
     </div>

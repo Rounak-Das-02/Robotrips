@@ -8,6 +8,7 @@ import CasesSection from '@/components/cases-section';
 import SocialProof from '@/components/social-proof';
 import PricingTable from '@/components/pricing-table';
 import Footer from '@/components/footer';
+import { tw } from 'twind'
 
 export default function Home() {
   return (
@@ -16,8 +17,8 @@ export default function Home() {
         title="Robotrips"
         description="Autonomous Shuttle Service for you 24/7"
       />
-      <Header />
-      <main>
+      <Header/>
+      <main className = {tw(`bg-gray-100 `)}>
         <VideoSection />
         <ListSection />
         <FeatureSection />

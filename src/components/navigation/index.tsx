@@ -115,7 +115,7 @@ const Navigation = () => {
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
-    <nav className={tw(`bg-white`)}>
+    <nav className={tw(`bg-gray-100`)}>
       <div className={tw(`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`)}>
         <div className={tw(`flex items-center justify-between h-24`)}>
           <div className={tw(`flex items-center`)}>
@@ -140,7 +140,7 @@ const Navigation = () => {
             <div className={tw(`ml-4 flex items-center md:ml-6`)}>
               {/* <Button modifier="border-0 mr-2">Contact sales</Button> */}
               {/* <Button modifier="border-0 mr-2">Log in</Button> */}
-              <Button primary>Join Now</Button>
+              <Button primary>Get Early Access</Button>
             </div>
           </div>
           <div className={tw(`-mr-2 flex md:hidden`)}>
