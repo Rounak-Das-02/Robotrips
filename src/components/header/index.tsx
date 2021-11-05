@@ -4,7 +4,7 @@ import Netlify from '@/constants/svg/netlify.svg';
 import Nike from '@/constants/svg/nike.svg';
 import Figma from '@/constants/svg/figma.svg';
 import Aws from '@/constants/svg/aws.svg';
-import { url } from 'node:inspector';
+// import { url } from 'node:inspector';
 
 const headerStyle = css`
   background-color: #ffffff;

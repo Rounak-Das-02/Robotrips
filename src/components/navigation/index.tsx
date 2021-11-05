@@ -143,12 +143,12 @@ const Navigation = () => {
               <Button primary>Get Early Access</Button>
             </div>
           </div>
-          <div className={tw(`-mr-2 flex md:hidden`)}>
+          {/* <div className={tw(`-mr-2 flex md:hidden`)}>
             <MenuButton showMenu={showMenu} toggleMenu={toggleMenu} />
-          </div>
+          </div> */}
         </div>
       </div>
-      {showMenu ? <MobileMenu /> : null}
+      {/* {showMenu ? <MobileMenu /> : null} */}
     </nav>
   );
 };
