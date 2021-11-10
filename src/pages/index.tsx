@@ -26,7 +26,7 @@ export default function Home() {
         {/* <SocialProof /> */}
         <PricingTable />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </Page>
   );
 }
